@@ -1,6 +1,9 @@
-h1 {
-    font-family: Arial;
-    color: aqua;
-    font-size: 100;
-    font-variant: small-caps;
+li:nth-child(2n) a {
+ color: black;
+}
+li:nth-child(even) a:hover {
+    color: red;
+}
+p:first-of-type{
+    color: red;
 }
